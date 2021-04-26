@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="page Contact">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicons -->
+    <link href="assets/images/favicon.png" rel="icon">
+
+    <title>Le P'tea Breack</title>
+    <style>
+        .row {
+          border: 1px solid #7451EB;
+          padding: 3px;
+        }
+        [class^="col"] {
+          padding: 1rem;
+          border: 2px solid #3FA5DB;
+        }
+      </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg mb-4">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Pour toute demande de renseignements, n'hésitez pas à nous contacter !</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="contact-about">
+                    <h3>Le P'tea break</h3>
+                        <div class="social-links pb-4">
+                            <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="info">
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p> 70 rue des jacobins <br>80000 Amiens</p>
+                    </div>
+
+                    <div>
+                        <i class="far fa-envelope"></i>
+                        <p><a class="text-decoration-none" href="mailto:pteabreak@gmail.com"> pteabreak@gmail.com</a></p>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <p> 03.22.14.25.68</p>
+                    </div>
+                </div>      
+        </div>
+
+        <div class="col-md-6">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Svp, Veuillez vérifier" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail" data-rule="email" data-msg="Svp, entrez une adresse mail valide" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Minimum 8 caractères" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Votre message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Votre message a été envoyé avec succès. Merci !</div>
+            </div>
+            <div class="text-center pb-4"><button type="submit" class="btn btn-secondary">Envoyer message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+</section>
+  <!-- Présentation de l'équipe -->
+<section>
+    <div class="container mb-4">
+        <div class="section-title text-center">
+            <h2>Notre équipe</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="card-title">Benjamin</h2>
+                        <p class="card-text">Le gérant</p>
+                        <img src="assets/images/Benjamin.jpg" alt="photo gérant">
+                        <div class="card-footer"><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal">+ d'infos
+                        </button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="card-title">Stéphanie</h2>
+                        <p class="card-text">Patissière</p>
+                        <img src="assets/images/Stephanie.jpg" alt="photo patissière">
+                        <div class="card-footer"><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal">+ d'infos
+                        </button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h2 class="card-title">Ray</h2>
+                        <p class="card-text">Serveur</p>
+                        <img src="assets/images/Ray.jpg" alt="photo serveur">
+                        <div class="card-footer"><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal">+ d'infos
+                        </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+    </main>
+    <footer>
+        <div class="map-responsive"><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.46840546889!2d2.2992870158809566!3d49.890008835468336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1618733655327!5m2!1sfr!2sfr"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+        <div class="row align-self-center">
+            <div class="col-md-3">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 70 rue des jacobins 80000 Amiens</p>
+                    <p><i class="fas fa-phone"></i> 03.22.14.25.68</p>
+                    <p><i class="far fa-envelope"></i><a class="text-decoration-none" href="mailto:pteabreak@gmail.com"> pteabreak@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="horaires">
+                    <h3>Les horaires</h3>
+                    <p>Lundi-Samedi 8h-19h</p>
+                    <p>Fermé le Dimanche</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="réseaux">
+                    <h3>Suivez nous</h3>
+                    <p><a href="#"><img class="network" src="assets/images/fb.png" alt="icones Réseaux sociaux"></a></p>
+                    <p><a href="#"><img class="network" src="assets/images/twitter.png" alt="icones Réseaux sociaux"></a>
+                    </p>
+                    <p><a href="#"><img class="network" src="assets/images/insta.png" alt="icones Réseaux sociaux"></a></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="infos">
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Protection des données personnelles</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-12">
+                <div class="recherche">
+                    <label for="site-search">Vous souhaitez être informé(e) de nos nouveautés ?</label>
+                    <input type="mail" id="site-search" name="mail" placeholder="Entrez votre e-mail"
+                        aria-label="Search through site content">
+                    <button class="btn btn-secondary">Je m'inscris !</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://kit.fontawesome.com/09aebbaf14.js" crossorigin="anonymous"></script>
+</html>
