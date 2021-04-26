@@ -1,19 +1,15 @@
-@font-face {
-    font-family: Edwardian;
-    src: url("Edwardian Script ITC");
-  }
-  
+
   body{
       background-color: #eae6d3;
       width: 100%;
   }
   .titreone{
-      font-family: Edwardian Script ITC;
+    font-family: 'Great Vibes', cursive;
       font-size: 3em;
   }
   .para{
-      font-family: Edwardian Script ITC;
-      font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
   }
   .fab{
       color: #000000;
@@ -224,8 +220,11 @@
       opacity: 0.9;
     }
 .reduc{
-    width: 50%;
+    width: 40%;
 }
 .logo{
     width: 20%;
+}
+.card{
+    border-radius: 3%;
 }
