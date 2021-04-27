@@ -240,6 +240,12 @@
 }
 .card{
     border-radius: 3%;
+    box-shadow: 20px 20px 20px 0 rgba(183,202,139);
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: 40px 40px 40px 0 rgba(183,202,139);
+  transition: 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -276,4 +282,7 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: white;
+}
+.bold{
+  font-weight: bold;
 }
