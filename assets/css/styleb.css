@@ -13,6 +13,23 @@
     font-size: 3em;
   }
 
+  button {
+    background-color: rgb(183, 202, 139);
+  }
+  
+  button:hover {
+    color: #eae6d3;
+  }
+
+  button a {
+    text-decoration: none;
+    color: black;
+  }
+
+  button a:hover {
+    color: #eae6d3;
+  }
+
   .titreone{
     font-family: 'Great Vibes', cursive;
       font-size: 3em;
@@ -28,6 +45,36 @@
   .fab a:hover{
       color: white;
   }
+
+/*--------------------------------------------------------------
+# Accueil
+--------------------------------------------------------------*/
+.font {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+}
+
+.pteas {
+  background:rgba(112, 134, 60, 0.70);
+}
+
+.patisseries {
+  background: rgba(112, 134, 60, 0.70);
+}
+
+.shop {
+  background: rgba(112, 134, 60, 0.70);
+}
+
+.rounded {
+  transform: scale(1.5);
+}
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
   .navbar-b {
       transition: all .5s ease-in-out;
       background-color: transparent;
@@ -213,6 +260,7 @@
     }
     .navbar{
         background-color: rgb(183, 202, 139);
+        height: 12%;
     }
     
     .navbar-toggler:not(.collapsed) span:nth-child(2) {
@@ -234,12 +282,16 @@
 }
 .logo{
     width: 20%;
-    width: 130px;
-    margin-top:-90px;
     overflow: hidden;
 }
 .card{
     border-radius: 3%;
+    box-shadow: 20px 20px 20px 0 rgba(183,202,139);
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: 40px 40px 40px 0 rgba(183,202,139);
+  transition: 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -254,7 +306,6 @@
   color: rgb(183, 202, 139);
   text-decoration: none;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -276,4 +327,13 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: white;
+}
+<<<<<<< HEAD
+
+footer i:hover {
+  color: white;
+=======
+.bold{
+  font-weight: bold;
+>>>>>>> 046575a90db33c58f82ec21337c954be060839be
 }
