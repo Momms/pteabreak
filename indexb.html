@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Le P'tea Break</title>
-        <meta name="description" content="">
+        <meta name="description" content="page d'accueil">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/styleb.css">
@@ -94,7 +94,6 @@
             </div>
         </div>
 
-
         <div class="container-fluid py-4 m-4">
             <div class="row patisseries p-4">
                 <div class="col-md-6 text-center align-self-center">
@@ -139,7 +138,7 @@
                             <p class="card-text">Gérant</p>
                             <img src="assets/images/Benjamin.jpg" alt="photo gérant">
                             <div class="card-footer">
-                                <button type="button" class="btn" data-toggle="modal" data-target="#modal">Mon histoire
+                                <button type="button" class="btn" data-toggle="modal" data-target="#modalBen">Mon histoire
                                 </button>
                             </div>
                         </div>
@@ -151,7 +150,7 @@
                             <h2 class="card-title">Stéphanie</h2>
                             <p class="card-text">Patissière</p>
                             <img src="assets/images/Stephanie.jpg" alt="photo patissière">
-                            <div class="card-footer"><button type="button" class="btn" data-toggle="modal" data-target="#modal">Mon histoire
+                            <div class="card-footer"><button type="button" class="btn" data-toggle="modal" data-target="#modalStef">Mon histoire
                             </button></div>
                         </div>
                     </div>
@@ -162,12 +161,70 @@
                             <h2 class="card-title">Ray</h2>
                             <p class="card-text">Serveur</p>
                             <img src="assets/images/Ray.jpg" alt="photo serveur">
-                            <div class="card-footer"><button type="button" class="btn" data-toggle="modal" data-target="#modal">Mon histoire
+                            <div class="card-footer"><button type="button" class="btn" data-toggle="modal" data-target="#modalRay">Mon histoire
                             </button></div>
                         </div>
                     </div>
                 </div>
             </div>
+    <!-- Modals -->
+            <div class="modal" id="modalBen" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Benjamin</h2>
+                            <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <p>Féru de voyages, j'ai créé <span class="font">"P 'tea Break"</span> pour vous faire découvrir mon univers et mes escapades via la dégustation de thés & de pâtisseries d'exception des 4 coins du monde.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">&times; Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modalStef" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Stéphanie</h2>
+                            <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <p>Depuis l'obtention de mon CAP Pâtisserie en 2014, j'ai découvert bien plus qu'une profession, j'ai découvert une véritable passion. Dès lors, j'ai multiplié les expériences auprès des plus grands chefs (Georges Blanc, Alain Ducasse, Thierry Marx, etc...) Venez goûter par vous-mêmes !</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">&times; Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modalRay" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Ray</h2>
+                            <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <p>Reconnu pour ma bonne humeur, je ferai de votre passage un moment convivial, qui, sans doute, restera gravé dans vos mémoires et dans vos papilles !</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">&times; Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section> 
     </main>
