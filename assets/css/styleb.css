@@ -439,6 +439,9 @@ iframe {
     margin: 15px;
   }
 
+  .logoText{
+    width: 70%;
+  }
 }
 
 @media screen AND (max-width: 680px) 
@@ -455,7 +458,7 @@ iframe {
   .card {
     margin: 15px;
   }
-  .break{
+  .logoText{
     width: 70%;
   }
 }
