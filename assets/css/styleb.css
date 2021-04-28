@@ -408,11 +408,9 @@ footer i:hover {
 .bold {
   font-weight: bold;
 }
-<<<<<<< HEAD
 .taillepicture{
   height: 70px;
-=======
-
+}
 iframe {
   width: 100%;
 }
@@ -451,6 +449,7 @@ iframe {
   .card {
     margin: 15px;
   }
-
->>>>>>> 4c3c250fc4ba7f515d9b718670a6af146e643aa6
+  .break{
+    width: 70%;
+  }
 }
