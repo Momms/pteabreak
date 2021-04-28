@@ -411,9 +411,13 @@ footer i:hover {
 .taillepicture{
   height: 70px;
 }
+.the{
+  width: 30%;
+}
 iframe {
   width: 100%;
 }
+
 
 /*--------------------------------------------------------------
 # Media Queries
